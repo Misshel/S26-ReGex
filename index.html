@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <form class="formulario" action="index.html" method="post">
+        <div class="input name">
+         <label for="name">Nombre y Apellido:</label>
+         <input type="text" id="name" name="user_name">
+       </div>
+
+       <div class="input Dni">
+        <label for="Id">DNI:</label>
+        <input type="number" id="dni" name="Id">
+       </div>
+
+       <div class="input Date">
+         <label for="date">Fecha de Nacimiento:</label>
+         <input type="date" name="bday">
+       </div>
+
+       <div class="input password">
+          <div class="input password1">
+            <label for="mail">Contraseña: </label>
+            <input type="password" id="user-password1" name="password">
+          </div>
+          <div class="input password2">
+            <label for="mail">Ingrese nuevamente su contraseña: </label>
+            <input type="password" id="user-password2" name="password">
+            <span id="error">la contraseña no coinside</span>
+          </div>
+       </div>
+
+       <div class="input message">
+         <label for="msg">Comentarios:</label>
+         <textarea id="msg" name="user-message"></textarea>
+       </div>
+
+       <div class="input checkbox">
+         <input id="check" type="checkbox" name="check" value="">Acepto <a href="#">Terminos y condiciones.</a><br>
+       </div>
+
+        <div class="input button">
+          <button type="submit">Enviar</button>
+        </div>
+    </form>
+  </section>
+</body>
+</html>
