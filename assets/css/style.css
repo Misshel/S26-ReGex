@@ -12,39 +12,38 @@ body{
 }
 
 section{
-  position: relative;
   left: 25%;
-  margin: 5%;
+  margin: 2%;
+  position: relative;
   width: 500px
 }
 
 form{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  /*color: white;*/
 }
 
 label{
-  width: 200px;
   display: inline-block;
+  width: 200px;
 }
 
 input{
-  margin-left: 14px;
-  text-align: center;
   border-radius: 7px;
-  width: 210px;
-  height: 27px;
-  padding: 7px;
   box-sizing: border-box;
+  height: 27px;
+  margin-left: 14px;
+  padding: 7px;
+  text-align: center;
+  width: 210px;
 }
 
 textarea{
+  border-radius: 7px;
   display: block;
+  height: 120px;
   margin: 14px;
   width: 400px;
-  height: 120px;
-  border-radius: 7px;
 }
 
 .input{
@@ -56,13 +55,25 @@ textarea{
 }
 
 #date{
-  text-align: center;
   font-size: 14px;
   font-style: italic;
   font-weight: bold;
+  text-align: center;
 }
 
 #check{
   margin: 0 7px 0 0;
-  width: 10px;
+  position: relative;
+  top: 7px;
+  width: 20px;
+}
+
+.button{
+  text-align: center;
+}
+
+#boton{
+  border-radius: 7px;
+  height: 30px;
+  width: 100px;
 }
