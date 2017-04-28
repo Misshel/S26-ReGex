@@ -10,6 +10,6 @@ boton.addEventListener=("click",function(){
   }else {
     alert("Las contraseñas no coinsiden");
   }
-})
+});
 
-})
+});
