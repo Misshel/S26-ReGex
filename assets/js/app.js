@@ -1,7 +1,14 @@
-window.addEventListener=("load",function(){
-var boton= document.getElementById("boton");
+window.addEventListener=("load",function(e){
+  e.preventDefault();
+var validar= document.getElementById("verificar");
 
-boton.addEventListener=("click",function(){
+validar.addEventListener=("sumbit",function (e) {
+  e.preventDefault();
+  password();
+
+});
+
+function password(){
   var password1= document.getElementById("user-password1").value;
   var password2= document.getElementById("user-password2").value;
 
@@ -10,6 +17,7 @@ boton.addEventListener=("click",function(){
   }else {
     alert("Las contraseñas no coinsiden");
   }
-});
+}
+
 
 });

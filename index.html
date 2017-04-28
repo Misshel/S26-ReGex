@@ -18,7 +18,7 @@
 
        <div class="input Dni">
         <label for="Id">DNI:</label>
-        <input type="number" id="dni" name="Id" required="" pattern="[0-9]{8}">
+        <input type="text" id="dni" name="Id" required="" pattern="[0-9]{8}">
        </div>
 
        <div class="input Date">
@@ -30,15 +30,15 @@
        <div class="telefono">
          <div class="input telefonos">
           <label for="Id">Celular: </label>
-          <input type="number" id="cell" name="Id" required="" pattern="9[0-9]{8}">
+          <input type="tel" id="cell" name="Id" required="" pattern="9[0-9]{8}">
          </div>
          <div class="input telefonos">
            <label for="Id">Telefono: </label>
-           <input type="number" id="phone" name="Id" required="" pattern="[\d]{2}.[\d]{3}.[\d]{4}">
+           <input type="tel" id="phone" name="Id" required="" pattern="[\d]{2}.[\d]{3}.[\d]{4}">
          </div>
        </div>
 
-       <div class="input password">
+       <div id="verificar" class="input password">
           <div class="input password1">
             <label for="mail">Contraseña: </label>
             <input type="password" id="user-password1" name="password" required="" pattern="\w{8}">
